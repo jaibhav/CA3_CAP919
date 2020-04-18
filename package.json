@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node 11710641_CA3.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "lodash": "^4.17.15"
+  }
+}

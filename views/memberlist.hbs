@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Members List</title>
+    </head>
+    <body style="text-align: center;">
+        {{>header}}
+        <h1 style="color:red">  MEMBERS LIST</h1>
+        <br><br>
+
+        <table border="2" align="center" bgcolor="yellow">
+            <tr>
+                <th>Member ID</th><th>Member Name</th>
+            </tr>
+            <tr>
+                <td>{{m_id_1}}</td><td>{{m_name_1}}</td>
+            </tr>
+            <tr>
+                <td>{{m_id_2}}</td><td>{{m_name_2}}</td>
+            </tr>
+        </table>
+        <h4><a href="/">Home</a></h4>
+        {{>footer}}
+    </body>
+</html>

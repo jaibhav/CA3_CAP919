@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Inventory Issue List</title>
+    </head>
+    <body style="text-align: center;">
+        {{>header}}
+        <h1 style="color:red">INVENTORY ISSUE LIST</h1>
+        <br><br>
+
+        <table border="2" align="center" bgcolor="yellow">
+            <tr>
+                <th>Item ID</th><th>Item Name</th><th>Member ID</th><th>Quantity</th>
+            </tr>
+            <tr>
+                <td>{{i_id_1}}</td><td>{{i_name_1}}</td><td>{{m_id_1}}</td><td>{{qty_1}}</td>
+            </tr>
+            <tr>
+                <td>{{i_id_2}}</td><td>{{i_name_2}}</td> <td>{{m_id_2}}</td><td>{{qty_2}}</td>
+            </tr>
+        </table>
+        <h4><a href="/">Home</a></h4>
+        {{>footer}}
+    </body>
+</html>
