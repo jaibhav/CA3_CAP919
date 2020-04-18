@@ -27,8 +27,6 @@ app.use((req,res,next)=>{
 
 app.get('/',(req,res)=>{
     res.render('index.hbs');
-    
-    // res.send("<h2 style="text-align:center;">Welcome to Inventory Management System! <br> Enter inventory for inventory details. <br> Enter issue for issued inventory list. <br> Enter member for members list. </h2>")
 })
 
 app.get('/inventory',(req,res)=>{
@@ -74,6 +72,10 @@ app.get('/members',(req,res)=>{
 });
 
 });
+
+app.get('/extra',(req,res)=>{
+    res.render('extramodule.hbs');
+})
 
 
 app.get('*',(req,res)=>{
